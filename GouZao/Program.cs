@@ -10,6 +10,10 @@ namespace GouZao
     {
         static void Main(string[] args)
         {
+            Student student = new Student("张三",20,"男");
+            Console.WriteLine(student.ToString()); 
+
+            Console.ReadLine();
         }
     }
 }
