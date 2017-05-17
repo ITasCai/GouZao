@@ -18,6 +18,7 @@ namespace GouZao
             this.sex = sex;
         }
 
+        //重写头tostring（）方法
         public override string ToString()
         {
             return "姓名;" + name + ",年龄：" + age + ",性别：" + sex;
